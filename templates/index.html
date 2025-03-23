@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <header>
+        <h1>🏠 Real Estate AI Platform</h1>
+        <p>Your AI-powered property assistant</p>
+    </header>
+
+    <section id="agent-ai-rating">
+        <h2>📊 Agent AI Rating System</h2>
+        <p>AI analyzes agent performance based on past sales, customer reviews, and response time.</p>
+        <button onclick="generateAgentRatings()">Generate AI Ratings</button>
+        <ul id="agent-rating-list"></ul>
+        <p id="loading-ratings" class="loading" style="display: none;">Analyzing agent performance...</p>
+    </section>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Sales</th>
+                <th>Reviews</th>
+                <th>Response Time</th>
+                <th>AI Rating</th>
+            </tr>
+        </thead>
+        <tbody id="agents-table">
+        </tbody>
+    </table>
+    
+</body>
+</html>
