@@ -13,27 +13,30 @@
         <p>Your AI-powered property assistant</p>
     </header>
 
-    <section id="agent-ai-rating">
-        <h2>📊 Agent AI Rating System</h2>
-        <p>AI analyzes agent performance based on past sales, customer reviews, and response time.</p>
-        <button onclick="generateAgentRatings()">Generate AI Ratings</button>
-        <ul id="agent-rating-list"></ul>
-        <p id="loading-ratings" class="loading" style="display: none;">Analyzing agent performance...</p>
+  
+
+    <hr>
+
+    <!-- 🔹 New Section: Predict AI Rating for a New Agent -->
+    <section id="predict-ai-rating">
+        <h2>⭐ Predict AI Rating for an Agent</h2>
+        <form id="ratingForm">
+            <label>Name: <input type="text" id="name" required></label><br>
+            <label>Sales: <input type="number" id="sales" required></label><br>
+            <label>Reviews (out of 5): <input type="number" step="0.1" id="reviews" required></label><br>
+            <label>Response Time:
+                <select id="response_time">
+                    <option value="Very Fast">Very Fast</option>
+                    <option value="Fast">Fast</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="Slow">Slow</option>
+                </select>
+            </label><br>
+            <button type="button" onclick="predictRating()">Get AI Rating</button>
+        </form>
+
+        <p id="predictionResult"></p>
     </section>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Sales</th>
-                <th>Reviews</th>
-                <th>Response Time</th>
-                <th>AI Rating</th>
-            </tr>
-        </thead>
-        <tbody id="agents-table">
-        </tbody>
-    </table>
-    
 </body>
 </html>
