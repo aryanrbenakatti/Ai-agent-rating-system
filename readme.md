@@ -1,4 +1,4 @@
-Here is a **README.md** file for your GitHub repository. It includes the project description, file structure, setup instructions, and usage details.  
+
 
 ---
 
@@ -30,7 +30,7 @@ AI-Rating-Predictor/
 ## 🎮 How to Use?
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/yourusername/AI-Rating-Predictor.git
+   git clone https://github.com/aryanrbenakatti/Ai-agent-rating-system.git
    cd AI-Rating-Predictor
    ```
 
@@ -52,9 +52,6 @@ AI-Rating-Predictor/
 
 ---
 
-## 🖼️ Preview  
-![AI Rating Predictor](https://via.placeholder.com/800x400.png?text=Project+Screenshot)
-
 ---
 
 ## 📌 Future Enhancements  
@@ -67,10 +64,3 @@ AI-Rating-Predictor/
 
 ---
 ```
-
-### **📌 Next Steps**
-- Replace `yourusername` with your **GitHub username**.
-- Add an actual **screenshot link** instead of `https://via.placeholder.com/...`.  
-- Upload this file along with your code to GitHub!  
-
-Would you like any additional sections? 😊🚀
