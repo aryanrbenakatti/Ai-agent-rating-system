@@ -1,3 +1,4 @@
+
 ---
 
 ### **📌 `README.md`**
@@ -40,6 +41,7 @@ AI-Rating-Predictor/
    - 📌 **Response Time** (Very Fast, Fast, Moderate, Slow)
 
 4. **Click "Get AI Rating"** to see the **predicted star rating** ⭐
+    and get the results
 
 ---
 
